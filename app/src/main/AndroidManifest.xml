@@ -5,10 +5,11 @@
     <application
         android:allowBackup="true"
         android:label="AI 助手"
-        android:theme="@style/Theme.Material3.DayNight.NoActionBar"
+        
         android:usesCleartextTraffic="true">
         <activity
             android:name=".MainActivity"
+            android:theme="@android:style/Theme.Material.Light.NoActionBar"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
